@@ -24,7 +24,7 @@ export default function App() {
   } else {
     return (
       <PaperProvider theme={CombinedDarkTheme}>
-        <Navigation theme={CombinedDefaultTheme} />
+        <Navigation theme={CombinedDarkTheme} />
     </PaperProvider>
     );
   }
