@@ -61,7 +61,8 @@ function TabOneNavigator() {
         component={TabOneScreen}
         options={{
           headerTitle: 'Tab One Title',
-          headerRight: () => <ThemeToggle/>
+          headerRight: () => <ThemeToggle />,
+          headerRightContainerStyle: { marginRight: 12 }
         }}
       />
     </TabOneStack.Navigator>
